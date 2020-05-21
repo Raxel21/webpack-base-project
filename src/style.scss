@@ -1,0 +1,26 @@
+body {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.handler {
+	animation: colors 3s infinite;
+}
+
+@keyframes colors {
+	0% {
+		color: #2fc4b2;
+		transform: scale(1) rotate(0);
+	}
+	50% {
+		color: #f17808;
+		transform: scale(1.5) rotate(360deg);
+	}
+
+	100% {
+		color: #2fc4b2;
+		transform: scale(1) rotate(0);
+	}
+}
